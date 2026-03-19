@@ -20,58 +20,58 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Interactive Web & UI Engineering",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "A product’s success often depends on how users experience it. I create responsive, interactive interfaces using modern frameworks and performance-focused design.",
     items: [
       {
-        title: "CI/CD Pipelines",
+        title: "React & Component Architecture",
         description: "(GitHub Actions, Docker, Kubernetes)",
       },
       {
-        title: "Server Management ",
+        title: "Performance-Focused UI",
         description: "(Linux, Nginx, Load Balancing)",
       },
       {
-        title: "Performance Tuning",
+        title: "Responsive Design Systems",
         description: "(Caching, Compression, Lighthouse 90+ Scores)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Intelligent Systems & Automation",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Modern applications are becoming smarter and more autonomous. I build systems that integrate AI, and data-driven logic to enhance functionality and decision making.",
     items: [
       {
-        title: "Code Audits",
+        title: "AI-Powered Features",
         description: "(Refactoring, Tech Debt Cleanup)",
       },
       {
-        title: "Pen Testing",
+        title: "Data Processing Systems",
         description: "(Vulnerability Assessments)",
       },
       {
-        title: "SEO Tech Stack",
+        title: "Intelligent APIs",
         description: "(SSR, Metadata, Structured Data)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "State Management & Development Workflow",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Modern applications require efficient state management and structured collaboration workflows. I implement scalable state architectures and maintain organized version control practices to ensure smooth development and maintainable codebases.",
     items: [
       {
-        title: "Cross-Platform Apps",
+        title: "Global State Management (Redux, Zustand)",
         description: "(Single codebase for iOS/Android/Web)",
       },
       {
-        title: "PWAs",
+        title: "Version Control with Git",
         description: "(Offline mode, Push Notifications)",
       },
       {
-        title: "E-Commerce",
+        title: "Repository Management (Clone, Push, Pull)",
         description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
     ],
@@ -80,102 +80,100 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Ladies Wear E-Commerce Platform",
     description:
       "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+    image: "/assets/projects/ladies.png",
+    bgImage: "/assets/backgrounds/ladyback.png",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "JAVASCRIPT" },
+      
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Accountant Portfolio Website",
     description:
       "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    image: "/assets/projects/portfolio.png",
+    bgImage: "/assets/backgrounds/portback.png",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "JAVASCRIPT" },
+      { id: 4, name: "SMTP SERVER" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Classic Dynamic QR Generator",
     description:
       "An e-commerce platform for Apple products and accessories with deals and category filtering.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
+    image: "/assets/projects/QRCODE.png",
+    bgImage: "/assets/backgrounds/qrback.png",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React js" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "MONGODB" },
+      { id: 4, name: "TAILWINDCSS" },
+      { id: 5, name: "JWT AUTH" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Whatsapp Clone",
     description:
       "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+    image: "/assets/projects/whatsapp.png",
+    bgImage: "/assets/backgrounds/whatsback.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "next.js" },
+      { id: 2, name: "node.js" },
+      { id: 3, name: "mongodb" },
+      { id: 4, name: "tailwind css" },
+      { id: 5, name: "socket.io" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "College Announcement And Event Management System",
     description:
       "A curated collection of designer home decor items, including furniture and artisan vases.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+    image: "/assets/projects/event.png",
+    bgImage: "/assets/backgrounds/eventback.png",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "node.js" },
+      { id: 3, name: "mongo db" },
+      { id: 4, name: "express.js" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Music Streaming Web App",
     description:
       "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    image: "/assets/projects/Music.png",
+    bgImage: "/assets/backgrounds/songback.webp",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "php" },
+      { id: 2, name: "html" },
+      { id: 3, name: "MySQL" },
+      { id: 4, name: "Css" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/mr_deep204" },
+ 
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/gagandeep-singh-9b7347307/" },
+  { name: "GitHub", href: "https://github.com/deep23232323" },
 ];
