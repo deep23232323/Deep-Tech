@@ -17,7 +17,7 @@ const Hero = () => {
       />
       <figure
         className="absolute inset-0 -z-50"
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100%", height: "100vh" }}
       >
         <Canvas
           shadows

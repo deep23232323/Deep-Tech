@@ -56,7 +56,7 @@ I believe great software is built with clean architecture, efficient workflows, 
           ref={imgRef}
           src="images/main.png"
           alt="man"
-          className="w-md rounded-3xl"
+          className="w-full max-w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />
       </div>
