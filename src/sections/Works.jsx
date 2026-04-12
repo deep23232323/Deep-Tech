@@ -133,7 +133,9 @@ const Works = () => {
               <h2 className="lg:text-[32px] text-[26px] leading-none">
                 {project.name}
               </h2>
-              <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
+              <a href={`${project.href}`} target="_blank" rel="noopener noreferrer">
+  <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5 cursor-pointer" />
+</a>
             </div>
             {/* divider */}
             <div className="w-full h-0.5 bg-black/80" />

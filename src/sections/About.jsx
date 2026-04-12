@@ -5,15 +5,19 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
-    from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const text = `Full-Stack Developer crafting modern web applications
+I build scalable, secure, and high-performance digital products
+from idea to production`;
+
+const aboutText = `Focused on building fast, scalable, and reliable applications across the entire stack.
+
+⚡️ Frontend — React, JavaScript, modern UI architecture
+🧠 Backend — Node.js, APIs, authentication systems
+🗄 Database — MongoDB, optimized data structures
+🚀 State Management — Redux & Zustand for scalable applications
+☁️ Dev Workflow — Git version control, repository management, and collaboration
+
+I believe great software is built with clean architecture, efficient workflows, and a strong focus on user experience.`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -50,9 +54,9 @@ const About = () => {
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
-          src="images/man.jpg"
+          src="images/main.png"
           alt="man"
-          className="w-md rounded-3xl"
+          className="w-full max-w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />
       </div>
